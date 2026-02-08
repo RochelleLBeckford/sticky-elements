@@ -1,0 +1,240 @@
+/* & This will import the desired font */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+/* & ----------------------------------- */
+
+/* & This will style the font for the entire webpage */
+* {
+    /* ~ This makes the "width" and "height" include padding and border, instead of adding them on top */
+    box-sizing: border-box;
+}
+
+/* & this will style the default appearance of the entire webpage */
+body {
+    background-color: #393a64;
+    color: #f4f5f1;
+    font-family: "Poiret One";
+    line-height: 1.7;
+    /* ~ This will remove the default browser spacing */
+    padding: 0;
+    margin: 0;
+}
+
+/* & ----------------------------------- */
+
+/* & This will style the elements in the header section of the webpage */
+header {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.header-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+h1 {
+    border-bottom: 8px solid #d5ffc0;
+    width: max-content;
+    font-weight: 400;
+    padding: 5px;
+}
+
+/* ~ This will style the dividing line into a vertical dividing line */
+.vertical-divider {
+    width: 8px;
+    height: 200px;
+    background: linear-gradient(#d5ffc0 35%, #d17 75%)no-repeat;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ~ This will style the dividing line between each section of the header */
+.header-divider {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(90deg, #d5ffc0 35%, #d17 75%)no-repeat;
+    margin: auto;
+}
+
+h2 {
+    width: max-content;
+    font-weight: 400;
+    padding-bottom: 8px;
+    margin: auto;
+
+}
+
+/* ~ This will style the dividing line that will follow each title of each section */
+.title-divider {
+    width: 25%;
+    height: 8px;
+    background: linear-gradient(90deg, #d5ffc0 35%, #d17 75%)no-repeat;
+}
+
+sub-heading > p {
+    width: max-content;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 7px solid #d5ffc0;
+    padding-bottom: 8px;
+    margin: auto;
+}
+
+/* & ----------------------------------- */
+
+/* ~ This will style the nav bar of the webpage */
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+a {
+    color: #f4f5f1;
+    text-decoration: none;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+.nav-list {
+    border-bottom: 3px solid #d5ffc0;
+    padding-bottom: 8px;
+}
+
+/* & ----------------------------------- */
+
+/* ~ This will style the dividing line between each section of the webpage -> the header, main, and footer */
+.section-divider {
+    width: 95%;
+    height: 8px;
+    background: linear-gradient(90deg, #d5ffc0 35%, #d17 75%)no-repeat;
+    margin: auto;
+}
+
+/* & ----------------------------------- */
+
+/* & This will style the elements in the main section of the webpage */
+main {
+    width: 100%;
+}
+
+/* & ----------------------------------- */
+
+/* ~ This will style the notification section */
+#notification-section {
+    background-color: #d5ffc0;
+    color: black;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    /* position: sticky; */
+    padding: 8px;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* ~ This will style the horizontal line or dividing line that will divide each section of the main */
+.main-divider {
+    height: 10px;
+    width: 95%;
+    background: linear-gradient(90deg, #d5ffc0 35%, #d17 75%)no-repeat;
+}
+
+/* & ----------------------------------- */
+
+/* ~ This will style the story section */
+#story-section {
+    width: 95%;
+    margin: auto;
+}
+
+#story-img {
+    max-width: 100%;
+    max-height: 250px;
+    padding: 8px;
+    margin-left: 35%;
+}
+
+/* & ----------------------------------- */
+
+/* ~ This will style the elements in the services section */
+#services-section {
+    width: 95%;
+    margin: auto;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+li::marker {
+    font-size: 1.5em;
+}
+
+/* & ----------------------------------- */
+
+/* ~ This will style the elements in the contact us section */
+#contact-section {
+    width: 95%;
+    margin: auto;
+}
+
+/* ~ This will style the contact form,  */
+form {
+    width: max-content;
+    text-emphasis: center;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+    margin: auto;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type="email"] {
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    background-color: #d5ffc0;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 40%;
+}
+
+/* & ----------------------------------- */
+
+/* & This will style the elements in the footer section of the webpage */
+footer {
+    margin: 20px;
+}
+
+.footer-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
