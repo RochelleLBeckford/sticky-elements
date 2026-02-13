@@ -50,10 +50,10 @@
     -   By setting the top of the h2 element with the sticky position, and becuase the page body is its nearest scrolling container, each heading gets "stuck" to the top of the screen until we've scrolled past its most direct container section element.
 
     -   [ ] The visual examples of sticky positioning:
-        -   [ ] <img src="img/readme/rendered-position-sticky-pt1.png" height="300">
-        -   [ ] <img src="img/readme/rendered-position-sticky-pt2.png" height="300">
-        -   [ ] <img src="img/readme/rendered-position-sticky-pt3.png" height="300">
-        -   [ ] <img src="img/readme/rendered-position-sticky-pt4.png" height="300">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt1.png" height="400">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt2.png" height="400">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt3.png" height="400">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt4.png" height="400">
 
 <hr>
 
