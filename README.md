@@ -35,50 +35,25 @@
         -   [ ] This will keep an element in flow with the other elements of a webpage
         -   [ ] Elements stay stay in its normal spot until it is a certain distance from the top of its containing element. After which it will stick to a place.
 
-    -   [ ] For instance, using this syntax:
-        ``` html
-        <body>
-            <h1>Site Draft</h1>
-            <ul>
-                <li><a href="about">About</a></li>
-                <li><a href="projects">Projects</a></li>
-            </ul>
-            <div id="about">
-                <h2>About</h2>
-            </div>
-            <div id="projects">
-                <h2>Projects</h2>
-            </div>
-        </body>
-        ```
-
-    -   [ ] Examples of setting the ul [unordered list] to a fixed positions whether scrolling up or down the webpage:
+    -   [ ] For instance, using this syntax giving the section elements 100vh (givinng more scrolling room) and select the h2 elements within each section and set their position to sticky:
         ``` css
-        ul {
-            background-color: lightyellow;
-            border: 2px solid;
-            padding: 2px;
-            list-style-type: none;
-            position: fixed;
+        section {
+            height: 100vh;
         }
 
-        div {
-            height: 75vh;
-        }
-
-        #about > h2 {
-            background-color: lightseagreen;
-        }
-
-        #projects > h2 {
-            background-color: orange;
+        h2 {
+            position: sticky;
+            top: 0;
         }
         ```
 
-    -   [ ] The visual examples of fixed positioning:
-        -   [ ] <img src="img/main/rendered-fixed-ul.png" alt="Rendered Fixed Positioning 1">
-        -   [ ] <img src="img/main/rendered-fixed-ul-pt2.png" alt="Rendered Fixed Positioning 2">
-        -   [ ] <img src="img/main/rendered-fixed-ul-pt3.png" alt="Rendered Fixed Positioning 3">
+    -   By setting the top of the h2 element with the sticky position, and becuase the page body is its nearest scrolling container, each heading gets "stuck" to the top of the screen until we've scrolled past its most direct container section element.
+
+    -   [ ] The visual examples of sticky positioning:
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt1.png" height="300">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt2.png" height="300">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt3.png" height="300">
+        -   [ ] <img src="img/readme/rendered-position-sticky-pt4.png" height="300">
 
 <hr>
 

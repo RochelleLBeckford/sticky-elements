@@ -69,7 +69,12 @@ h2 {
     font-weight: 400;
     padding-bottom: 8px;
     margin: auto;
+    position: sticky;
+    top: 0;
+}
 
+section {
+    height: 100vh;
 }
 
 /* ~ This will style the dividing line that will follow each title of each section */
